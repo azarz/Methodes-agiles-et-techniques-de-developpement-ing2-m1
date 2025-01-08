@@ -1,6 +1,7 @@
 site_name: Méthodes agiles et techniques de développement
 nav:
     - Accueil: index.md
+    - Déroulement des séances: planning.md
     - Roadmaps:
         - Utilisateurs et product owner: utilisateurs.md
         - Développeurs et chef d'équipe: developpeurs.md
@@ -11,7 +12,9 @@ nav:
         - Merge requests: gitlab/mr.md
         - Intégration continue: gitlab/ci.md
     - Git:
-        - Formation Git: FormationGit.pdf
+        - Guide pour débuter (en anglais): https://rogerdudler.github.io/git-guide/" target="_blank
+        - Formation Git: FormationGit.pdf" target="_blank
+    - Support de la première demi-journée: presentation_j1.pdf" target="_blank
 markdown_extensions:
     - fenced_code
     - toc:
