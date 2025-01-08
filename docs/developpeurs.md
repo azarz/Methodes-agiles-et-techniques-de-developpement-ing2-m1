@@ -1,6 +1,6 @@
 # Développeurs et chef d'équipe
 
-S'enregistrer sur Gitlab (http://gitlab-ing2.ensg.eu/)
+S'enregistrer sur Gitlab ([http://gitlab-ing2.ensg.eu/](http://gitlab-ing2.ensg.eu/))
 
 ## Chef d'équipe
 

@@ -4,12 +4,12 @@ nav:
     - Roadmaps:
         - Utilisateurs et product owner: utilisateurs.md
         - Développeurs et chef d'équipe: developpeurs.md
-        - Intégrateurs: integrateurs.md
-    - Gitlab:
+        - DevOps: devops.md
+    - Aide Gitlab:
         - Créer un projet: gitlab/project.md
-        - Créer des issues/tickets: gitlab/issues.md
-        - Faire une merge request: gitlab/mr.md
-        - Faire de l'intégration continue: gitlab/ci.md
+        - Issues/tickets: gitlab/issues.md
+        - Merge requests: gitlab/mr.md
+        - Intégration continue: gitlab/ci.md
     - Git:
         - Formation Git: FormationGit.pdf
 markdown_extensions:

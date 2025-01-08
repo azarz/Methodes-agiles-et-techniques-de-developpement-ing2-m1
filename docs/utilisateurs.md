@@ -1,6 +1,6 @@
 # Utilisateurs et Product Owner (PO)
 
-S'enregistrer sur Gitlab (http://gitlab-ing2.ensg.eu/)
+S'enregistrer sur Gitlab ([http://gitlab-ing2.ensg.eu/](http://gitlab-ing2.ensg.eu/))
 
 ## Product owner
 
