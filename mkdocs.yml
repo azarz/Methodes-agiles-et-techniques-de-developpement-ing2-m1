@@ -3,19 +3,26 @@ nav:
     - Accueil: index.md
     - Déroulement des séances: planning.md
     - Roadmaps:
-        - Utilisateurs et product owner: utilisateurs.md
-        - Développeurs et chef d'équipe: developpeurs.md
+        - Utilisateurs: utilisateurs.md
+        - Product Owner (PO): po.md
+        - Chef d'équipe MOE: chef_moe.md
+        - Développeurs: developpeurs.md
         - DevOps: devops.md
     - Aide Gitlab:
         - Créer un projet: gitlab/project.md
-        - Issues/tickets: gitlab/issues.md
+        - Tickets: gitlab/issues.md
         - Merge requests: gitlab/mr.md
+        - Création de version: gitlab/tag.md
         - Intégration continue: gitlab/ci.md
     - Git:
         - Guide pour débuter (en anglais): https://rogerdudler.github.io/git-guide/" target="_blank
         - Formation Git: FormationGit.pdf" target="_blank
     - Support de la première demi-journée: presentation_j1.pdf" target="_blank
 markdown_extensions:
+    - attr_list
+    - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
     - fenced_code
     - toc:
         baselevel: 2

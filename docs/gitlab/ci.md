@@ -2,7 +2,7 @@
 
 - Ouvrir le projet
 
-- Dans la barre de gauche, cliquer sur l'icône fusée CI/CD
+- Dans la barre de gauche, cliquer sur l'icône CI/CD :material-rocket-launch-outline:
 
 ![](../images/gitlab/ci/ci_1.png)
 
@@ -11,8 +11,8 @@
 
 ## Pour lancer un job manuel
 
-- Cliquer sur l'étape manuel en statut "skipped" `>>`
+- Cliquer sur l'étape manuel en statut "skipped" :material-chevron-double-right:
 
-- Cliquer sur le bouton play.
+- Cliquer sur le bouton play :material-play-circle-outline:
 
 ![](../images/gitlab/ci/ci_2.png)

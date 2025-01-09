@@ -1,7 +1,7 @@
 # Création de tag
 
 - Ouvrir le projet
-- Dans la vue globale, cliquer sur "X tags" (au début, "0 tags"), en dessous du nom du projet
+- Dans la vue globale, cliquer sur ":material-tag-outline: X tags" (au début, ":material-tag-outline: 0 tags"), en dessous du nom du projet
 
 ![](../images/gitlab/tag/tag_1.png)
 

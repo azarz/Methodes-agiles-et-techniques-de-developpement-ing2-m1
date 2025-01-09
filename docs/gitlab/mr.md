@@ -3,7 +3,7 @@
 ## Créer une merge request
 
 - Ouvrir le projet
-- Dans la barre du haut, cliquer sur le +
+- Dans la barre du haut, cliquer sur le :material-plus-box:
 - Cliquer sur "New merge request"
 
 ![](../images/gitlab/mr/mr_1_a.png)
@@ -22,7 +22,7 @@
 ## Accepter une merge request
 
 - Ouvrir le projet
-- Dans la barre de gauche, cliquer sur Merge requests
+- Dans la barre de gauche, cliquer sur :material-source-pull: Merge requests
 
 ![](../images/gitlab/mr/mr_2_a.png)
 

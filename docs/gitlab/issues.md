@@ -1,7 +1,7 @@
 # Création de ticket
 
 - Ouvrir le projet
-- Dans la barre du haut, cliquer sur le +
+- Dans la barre du haut, cliquer sur le :material-plus-box:
 - Cliquer sur "New issue"
 
 ![](../images/gitlab/issues/issues_1.png)
@@ -12,9 +12,27 @@
 
 ![](../images/gitlab/issues/issues_2.png)
 
-## Assignation du ticket
+# Consultation des tickets
 
-Voici le cycle d'assignation du ticket :
+- Ouvrir le projet
+- Dans la barre latérale gauche, cliquer sur l'item :material-cards-outline: "Issues"
+
+![](../images/gitlab/issues/issues_3.png)
+
+- Pour consulter un ticket en particulier, cliquer sur son titre dans la liste.
+
+# Assignation du ticket
+
+## Changer l'assignation d'un ticket
+
+- Consulter le ticket dont l'assignation est à modifier [voir plus haut](#consultation-des-tickets)
+- Dans la barre à droite de l'ecran, à la section "Assignees", cliquer sur "Edit"
+
+![](../images/gitlab/issues/issues_4.png)
+
+- Ajouter l'utilisateur à qui le ticket doit être assigner, supprimer les autres
+
+## Cycle d'assignation du ticket :
 
 - L'utilisateur crée le ticket et l'assigne au PO
 - Le PO assigne le ticket au chef d'équipe MOE
