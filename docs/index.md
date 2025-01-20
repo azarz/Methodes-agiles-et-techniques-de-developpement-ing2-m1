@@ -1,5 +1,10 @@
 # Gestion de projet informatique
 
+## Liens utiles
+* Gitlab ([http://gitlab-ing2.ensg.eu/](http://gitlab-ing2.ensg.eu/))
+* Pré-production ([http://preprod-ing2.ensg.eu/](http://preprod-ing2.ensg.eu/))
+* Production ([http://production-ing2.ensg.eu/](http://production-ing2.ensg.eu/))
+
 ## Équipes
 Groupes de 8, 12 ou 13 étudiants.
 
