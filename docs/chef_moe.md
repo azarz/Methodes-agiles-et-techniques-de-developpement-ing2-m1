@@ -3,7 +3,7 @@ S'enregistrer sur Gitlab ([http://gitlab-ing2.ensg.eu/](http://gitlab-ing2.ensg.
 ### Actions initiales
 
 - Créer le dépôt du projet. [:material-help:aide](gitlab/project.md#creation-du-projet)
-- Ajouter tous les développeurs, le devops et le product owner dans le projet (avec les rôles adéquats) [:material-help:aide](gitlab/project/#ajout-de-membres)
+- Ajouter tous les développeurs, le devops et le product owner dans le projet (avec les rôles adéquats) [:material-help:aide](gitlab/project.md#ajout-de-membres)
 - Mise en place du board Kanban sur le projet (Projet > Issues > Board) : créer un board avec comme colonnes : à faire, en cours, à tester, terminé
 
 Sur son poste, réinitaliser le proxy pour git :
