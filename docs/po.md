@@ -2,8 +2,8 @@ S'enregistrer sur Gitlab ([http://gitlab-ing2.ensg.eu/](http://gitlab-ing2.ensg.
 
 ### Actions récurrentes
 
-* Prioriser les demandes des utilisateurs, les compléter [:material-help:aide](gitlab/issues/#consultation-des-tickets)
-* Assigner les demandes complétées et priorisées au chef d'équipe MOE [:material-help:aide](gitlab/issues/#changer-lassignation-dun-ticket)
+* Prioriser les demandes des utilisateurs, les compléter [:material-help:aide](gitlab/issues.md#consultation-des-tickets)
+* Assigner les demandes complétées et priorisées au chef d'équipe MOE [:material-help:aide](gitlab/issues.md#changer-lassignation-dun-ticket)
 * Inspecter et mettre à jour le board (Kanban) du projet -> Projet > Issues > Board
 * Contrôler la version en préproduction et valider les évolutions
 * Demander un déploiement en production
