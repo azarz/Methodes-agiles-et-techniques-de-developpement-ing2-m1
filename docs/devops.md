@@ -62,6 +62,6 @@ deploiement_prod:
       - $CI_COMMIT_TAG =~ /^v\d+.\d+.\d+$/ # le job est exécuté uniquement à chaque commit dont le tag correspond à un nom du type v(nombre).(nombre).(nombre)
 ```
 
-Faire un commit intégrant ces changements sur la branche `feature/continuous-integration`, puis créer une Merge Request (MR) sur `main` via l'interface Gitlab. [:material-help:aide](gitlab/mr/#creer-une-merge-request)
+Faire un commit intégrant ces changements sur la branche `feature/continuous-integration`, puis créer une Merge Request (MR) sur `main` via l'interface Gitlab. [:material-help:aide](gitlab/mr.md#creer-une-merge-request)
 
-Une fois la MR mergée, suite à la demande du Product Owner (PO), vérifier que le job s'exécute bien à la création du tag par le chef d'équipe MOE. [:material-help:aide](gitlab/ci/#acceder-a-linterface-dintegration-continue)
+Une fois la MR mergée, suite à la demande du Product Owner (PO), vérifier que le job s'exécute bien à la création du tag par le chef d'équipe MOE. [:material-help:aide](gitlab/ci.md#acceder-a-linterface-dintegration-continue)
