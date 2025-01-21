@@ -17,7 +17,7 @@ test-ci:       # nom du job d'intégration continue
 ```
 Faire un commit intégrant ces changements sur la branche `feature/continuous-integration`, puis créer une Merge Request (MR) sur `main` via l'interface Gitlab.
 
-Une fois la MR mergée, tester le fonctionnement du job dans l'interface `CI/CD` en le lançant manuellement. [:material-help:aide](gitlab/ci/#acceder-a-linterface-dintegration-continue)
+Une fois la MR mergée, tester le fonctionnement du job dans l'interface `CI/CD` en le lançant manuellement. [:material-help:aide](gitlab/ci.md#acceder-a-linterface-dintegration-continue)
 
 ## Étape 3 : intégration continue automatique de main sur la préprod
 
@@ -30,9 +30,9 @@ deploiement_preprod: # nom du job d'intégration continue
   only:
     - main # le job est exécuté uniquement à chaque commit sur la branche main
 ```
-Faire un commit intégrant ces changements sur la branche `feature/continuous-integration`, puis créer une Merge Request (MR) sur `main` via l'interface Gitlab. [:material-help:aide](gitlab/mr/#creer-une-merge-request)
+Faire un commit intégrant ces changements sur la branche `feature/continuous-integration`, puis créer une Merge Request (MR) sur `main` via l'interface Gitlab. [:material-help:aide](gitlab/mr.md#creer-une-merge-request)
 
-Une fois la MR mergée, tester le fonctionnement du job dans l'interface `CI/CD` au prochain merge de MR des développeurs sur `main`. [:material-help:aide](gitlab/ci/#acceder-a-linterface-dintegration-continue)
+Une fois la MR mergée, tester le fonctionnement du job dans l'interface `CI/CD` au prochain merge de MR des développeurs sur `main`. [:material-help:aide](gitlab/ci.md#acceder-a-linterface-dintegration-continue)
 
 ## Étape 4 : intégration manuelle de main sur la prod
 
@@ -44,9 +44,9 @@ deploiement_prod:
     - sshpass -p "ci-agent" ssh ci-agent@172.31.42.86 "mkdir -p /var/www/html/VOTRE_PROJET"
     - sshpass -p "ci-agent" scp -r ./* ci-agent@172.31.42.86:/var/www/html/VOTRE_PROJET
 ```
-Faire un commit intégrant ces changements sur la branche `feature/continuous-integration`, puis créer une Merge Request (MR) sur `main` via l'interface Gitlab. [:material-help:aide](gitlab/mr/#creer-une-merge-request)
+Faire un commit intégrant ces changements sur la branche `feature/continuous-integration`, puis créer une Merge Request (MR) sur `main` via l'interface Gitlab. [:material-help:aide](gitlab/mr.md#creer-une-merge-request)
 
-Une fois la MR mergée, suite à la demande du Product Owner (PO), lancer un déploiement en production manuel. En tester le bon fonctionnement conjointement avec le chef d'équipe MOE. [:material-help:aide](gitlab/ci/#acceder-a-linterface-dintegration-continue)
+Une fois la MR mergée, suite à la demande du Product Owner (PO), lancer un déploiement en production manuel. En tester le bon fonctionnement conjointement avec le chef d'équipe MOE. [:material-help:aide](gitlab/ci.md#acceder-a-linterface-dintegration-continue)
 
 ## Étape 5 : intégration automatique de main sur la prod
 
