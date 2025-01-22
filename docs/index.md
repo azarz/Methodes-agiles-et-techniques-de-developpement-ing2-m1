@@ -1,9 +1,9 @@
-## Liens utiles
+# Liens utiles
 * Gitlab ([http://gitlab-ing2.ensg.eu/](http://gitlab-ing2.ensg.eu/))
 * Pré-production ([http://preprod-ing2.ensg.eu/](http://preprod-ing2.ensg.eu/))
 * Production ([http://production-ing2.ensg.eu/](http://production-ing2.ensg.eu/))
 
-## Équipes
+# Équipes
 Groupes de 8, 12 ou 13 étudiants.
 
 * Maîtrise d'OuvrAge (MOA)
@@ -18,7 +18,7 @@ Groupes de 8, 12 ou 13 étudiants.
 
 Pour 8 étudiants : 1 PO, 1 utilisateurice, 1 chef·fe d'équipe, 1 devops, 2x2 développeur·euse + externes.
 
-## Sujet du projet
+# Sujet du projet
 
 Site web : HTML + CSS + Javascript
 
