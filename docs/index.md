@@ -28,7 +28,7 @@ Site web : HTML + CSS + Javascript
 
 Les utilisateurs sont les propriétaires du magasin, qui ont engagé un PO pour les représenter auprès d'un prestataire de création de site web (MOE).
 
-2 environnements sont à disposition, qur lesquels déployer le site :
+2 environnements sont à disposition, sur lesquels déployer le site :
 
 - la préproduction, accessible uniquement à l'équipe MOE + MOA, sur lequel faire les test de validation
 - la production, disponible par internet, véritable site du magasin 
