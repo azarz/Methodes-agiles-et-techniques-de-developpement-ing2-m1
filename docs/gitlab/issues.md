@@ -34,9 +34,9 @@
 
 ## Cycle d'assignation du ticket :
 
-- L'utilisateur crée le ticket et l'assigne au PO
-- Le PO assigne le ticket au chef d'équipe MOE
-- Le chef d'équipe MOE assigne le ticket au membre d'équipe ciblé pour le développement
-- Une fois le dévelopement fait et la MR faite, le membre d'équipe assigne le ticket au chef d'équipe.
-- Une fois la MR mergée, le chef d'équipe assigne au PO pour vérification du traitement du ticket.
-- Le PO assigne éventuellement au client qui a créé le ticket pour qu'il fasse lui-même la vérification.
+- L'utilisateurice crée le ticket et l'assigne au/à la PO
+- Le ou la PO assigne le ticket au/à la chef·fe d'équipe MOE
+- Le ou la chef·fe d'équipe MOE assigne le ticket au membre d'équipe ciblé pour le développement
+- Une fois le dévelopement fait et la MR faite, le membre d'équipe assigne le ticket au/à la chef·fe d'équipe.
+- Une fois la MR mergée, le ou la chef·fe d'équipe assigne au/à la PO pour vérification du traitement du ticket.
+- Le ou la PO assigne éventuellement au client qui a créé le ticket pour qu'il ou elle fasse la vérification.
