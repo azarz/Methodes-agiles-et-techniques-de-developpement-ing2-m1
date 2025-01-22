@@ -50,7 +50,7 @@ Une fois la MR mergée, suite à la demande du Product Owner (PO), lancer un dé
 
 ## Étape 5 : intégration automatique de main sur la prod
 
-Dans le fichier `.gitlab-ci.yml`, ajouter un job de déploiement en prod automatique basé sur les tags :
+Dans le fichier `.gitlab-ci.yml`, modifer le job de déploiement en prod pour le rentre automatique et basé sur les tags :
 
 ```yaml
 deploiement_prod:
