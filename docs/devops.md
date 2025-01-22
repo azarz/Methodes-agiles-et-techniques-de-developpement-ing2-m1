@@ -22,6 +22,8 @@ Une fois la MR mergée, tester le fonctionnement du job dans l'interface `CI/CD`
 ## Étape 3 : intégration continue automatique de main sur la préprod
 
 Dans le fichier `.gitlab-ci.yml`, ajouter un job de déploiement en préprod automatique pour chaque commit sur `main` :
+
+**Pensez à remplacer ici "VOTRE_PROJET" par le nom voulu du site. L'url sera, en préproduction http://preprod-ing2.ensg.eu/VOTRE_SITE**
 ```yaml
 deploiement_preprod: # nom du job d'intégration continue
   script: # ensemble de commandes exécutées par le job
@@ -37,6 +39,8 @@ Une fois la MR mergée, tester le fonctionnement du job dans l'interface `CI/CD`
 ## Étape 4 : intégration manuelle de main sur la prod
 
 Dans le fichier `.gitlab-ci.yml`, ajouter un job de déploiement en prod manuel :
+
+**Pensez à remplacer ici "VOTRE_PROJET" par le nom voulu du site. L'url sera, en préproduction http://production-ing2.ensg.eu/VOTRE_SITE**
 ```yaml
 deploiement_prod:
   when: manual
@@ -52,6 +56,7 @@ Une fois la MR mergée, suite à la demande par le ou la Product Owner (PO), lan
 
 Dans le fichier `.gitlab-ci.yml`, modifer le job de déploiement en prod pour le rentre automatique et basé sur les tags :
 
+**Pensez à remplacer ici "VOTRE_PROJET" par le nom voulu du site. L'url sera, en préproduction http://production-ing2.ensg.eu/VOTRE_SITE**
 ```yaml
 deploiement_prod:
   script:
