@@ -3,10 +3,10 @@ nav:
     - Accueil: index.md
     - Déroulement des séances: planning.md
     - Roadmaps:
-        - Utilisateurs: utilisateurs.md
+        - Utilisateurices: utilisateurs.md
         - Product Owner (PO): po.md
-        - Chef d'équipe MOE: chef_moe.md
-        - Développeurs: developpeurs.md
+        - Chef·fe d'équipe MOE: chef_moe.md
+        - Développeur·euses: developpeurs.md
         - DevOps: devops.md
     - Aide Gitlab:
         - Créer un projet: gitlab/project.md
