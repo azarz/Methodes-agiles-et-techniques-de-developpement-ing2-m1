@@ -1,5 +1,3 @@
-# Gestion de projet informatique
-
 ## Liens utiles
 * Gitlab ([http://gitlab-ing2.ensg.eu/](http://gitlab-ing2.ensg.eu/))
 * Pré-production ([http://preprod-ing2.ensg.eu/](http://preprod-ing2.ensg.eu/))
