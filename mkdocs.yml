@@ -31,5 +31,7 @@ theme:
   language: fr
   palette:
     primary: blue grey
-    accent: green
+    accent: deep purple
   logo: logo.svg
+  features:
+    - content.code.copy
