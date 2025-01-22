@@ -29,9 +29,9 @@
 ![](../images/gitlab/project/project_5.png)
 
 - Dans le menu qui s'ouvre inviter les membres. Saisir le pseudo Gitlab (normalement prenom.nom). Vous pouvez inviter plusieurs personnes à la fois pour le même rôle. Rôle Gitlab en fonction du rôle dans le projet :
-    * Utilisateur : Guest
+    * Utilisateurice : Reporter
     * Product Owner : Reporter
-    * Développeur : Developer
-    * Chef d'équipe : normalement c'est vous, et vous êtes déjà Owner
+    * Développeur·euse : Developer
+    * Chef·fe d'équipe : normalement c'est vous, et vous êtes déjà Maintainer
 
 ![](../images/gitlab/project/project_6.png)
