@@ -27,5 +27,9 @@ markdown_extensions:
     - toc:
         baselevel: 2
 theme:
-  name: "material"
-  language: "fr"
+  name: material
+  language: fr
+  palette:
+    primary: blue grey
+    accent: green
+  logo: logo.svg
