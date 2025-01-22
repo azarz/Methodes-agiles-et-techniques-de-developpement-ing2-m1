@@ -28,3 +28,4 @@ markdown_extensions:
         baselevel: 2
 theme:
   name: "material"
+  language: "fr"
