@@ -24,7 +24,11 @@ Pour 8 étudiants : 1 PO, 1 utilisateurice, 1 chef·fe d'équipe, 1 devops, 2x2 
 
 Site web : HTML + CSS + Javascript
 
-Créer le site web d'un magasin fictif, de manière itérative.
+Créer le site web d'un magasin fictif, de manière itérative. Les utilisateurs sont les propriétaires du magasin, qui ont engagé un PO pour les représenter auprès d'un prestataire de création de site web (MOE).
+
+2 environnements sont à disposition, qur lesquels déployer le site :
+- la préproduction, accessible uniquement à l'équipe MOE + MOA, sur lequel faire les test de validation
+- la production, disponible par internet, véritable site du magasin 
 
 Par exemple :
 
