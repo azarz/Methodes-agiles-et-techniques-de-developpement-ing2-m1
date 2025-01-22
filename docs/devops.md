@@ -46,7 +46,7 @@ deploiement_prod:
 ```
 Faire un commit intégrant ces changements sur la branche `feature/continuous-integration`, puis créer une Merge Request (MR) sur `main` via l'interface Gitlab. [:material-help:aide](gitlab/mr.md#creer-une-merge-request)
 
-Une fois la MR mergée, suite à la demande du Product Owner (PO), lancer un déploiement en production manuel. En tester le bon fonctionnement conjointement avec le chef d'équipe MOE. [:material-help:aide](gitlab/ci.md#acceder-a-linterface-dintegration-continue)
+Une fois la MR mergée, suite à la demande par le ou la Product Owner (PO), lancer un déploiement en production manuel. En tester le bon fonctionnement conjointement avec le ou la chef·fe d'équipe MOE. [:material-help:aide](gitlab/ci.md#acceder-a-linterface-dintegration-continue)
 
 ## Étape 5 : intégration automatique de main sur la prod
 
@@ -64,4 +64,4 @@ deploiement_prod:
 
 Faire un commit intégrant ces changements sur la branche `feature/continuous-integration`, puis créer une Merge Request (MR) sur `main` via l'interface Gitlab. [:material-help:aide](gitlab/mr.md#creer-une-merge-request)
 
-Une fois la MR mergée, suite à la demande du Product Owner (PO), vérifier que le job s'exécute bien à la création du tag par le chef d'équipe MOE. [:material-help:aide](gitlab/ci.md#acceder-a-linterface-dintegration-continue)
+Une fois la MR mergée, suite à la demande par le ou la Product Owner (PO), vérifier que le job s'exécute bien à la création du tag par le ou la chef·fe d'équipe MOE. [:material-help:aide](gitlab/ci.md#acceder-a-linterface-dintegration-continue)
