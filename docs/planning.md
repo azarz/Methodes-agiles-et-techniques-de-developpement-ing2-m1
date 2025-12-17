@@ -1,7 +1,7 @@
 # Déroulement des séances
 
 ## Jour 1
-- 9h -> 11h45 : cours en commun, avec le support suivant : [presentation_j1.pdf](presentation_j1.pdf)
+- 9h -> 11h45 : cours en commun, avec le support suivant : [presentation_j1](presentation_j1.md)
 - 11h45 -> 12h15 : constitution des groupes (assignation des rôles), répartition des élèves dans les salles
 - 12h15 -> 12h30 : installation dans les salles, création des comptes [Gitlab](http://gitlab-ing2.ensg.eu/)
 
