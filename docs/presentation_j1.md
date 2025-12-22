@@ -1,5 +1,34 @@
-
 # Gestion de Projet Informatique
+
+```slides
+title: Présentation jour 1
+url_stub: j1-slides-url
+nav:
+        - j1-slides/1.md
+        - j1-slides/2.md
+        - j1-slides/3.md
+        - j1-slides/4.md
+        - j1-slides/5.md
+        - j1-slides/5a.md
+        - j1-slides/5bis.md
+        - j1-slides/pause.md
+        - j1-slides/6.md
+        - j1-slides/7.md
+        - j1-slides/8.md
+        - j1-slides/8a.md
+        - j1-slides/8bis.md
+        - j1-slides/8c.md
+        - j1-slides/9.md
+        - j1-slides/10.md
+        - j1-slides/10bis.md
+        - j1-slides/pause.md
+        - j1-slides/11.md
+        - j1-slides/11bis.md
+        - j1-slides/12.md
+        - j1-slides/13.md
+        - j1-slides/14.md
+        - j1-slides/15.md
+```
 
 ## 1. À l'origine d'un projet
 
@@ -69,7 +98,10 @@ graph TD
 ```
 
 !!! warning "Le problème des méthodes traditionnelles"
-Souvent, il y a un décalage entre ce qui est souhaité, spécifié, et ce qui est réellement nécessaire. Le fameux effet "téléphone arabe" entre la demande client et la réalisation finale peut mener à un produit inadapté.
+
+    Souvent, il y a un décalage entre ce qui est souhaité, spécifié, et ce qui est réellement nécessaire. Les besoins peuvent également varier au cours du temps. Enfin, les différents interlocuteurs et le temps de développement risquent aussi de créer une dérive.
+
+![derive](../images/presentation/derive.png)
 
 ---
 
@@ -77,33 +109,43 @@ Souvent, il y a un décalage entre ce qui est souhaité, spécifié, et ce qui e
 
 L'agilité est une réponse aux problèmes des cycles longs (effet tunnel). Elle repose sur **12 principes** et **4 valeurs** fondamentales.
 
-Les 4 Valeurs du Manifeste Agile
+### Les 12 principes Agile
+1. **Satisfaction du client** : Notre plus haute priorité est de satisfaire le client en livrant rapidement et régulièrement des fonctionnalités à grande valeur ajoutée.
+2. **Accueillir les changements** : Les changements de besoins sont accueillis favorablement, même tard dans le développement. Les processus Agiles exploitent le changement pour donner un avantage compétitif au client.
+3. **Livraison fréquente** : Livrer fréquemment un logiciel opérationnel, sur des cycles allant de quelques semaines à quelques mois, avec une préférence pour les périodes les plus courtes.
+4. **Coopération quotidienne** : Les utilisateurs ou clients et les développeurs doivent travailler ensemble quotidiennement tout au long du projet.
+5. **Individus motivés** : Réalisez les projets avec des personnes motivées. Fournissez-leur l’environnement et le soutien dont elles ont besoin et faites-leur confiance pour atteindre les objectifs fixés.
+6. **Dialogue face à face** : La méthode la plus efficace pour transmettre des informations à l'équipe de développement et à l'intérieur de celle-ci est le dialogue en face à face.
+7. **Logiciel opérationnel** : Un logiciel opérationnel est la principale mesure d’avancement d’un projet.
+8. **Rythme soutenable** : Les processus Agiles encouragent un rythme de développement soutenable. Les commanditaires, les développeurs et les utilisateurs devraient être capables de maintenir un rythme constant indéfiniment.
+9. **Excellence technique** : Une attention continue à l'excellence technique et à une bonne conception renforce l'agilité.
+10. **Simplicité** : La simplicité est essentielle. C'est l'art de minimiser la quantité de travail inutile.
+11. **Auto-organisation** : Les meilleures architectures, spécifications et conceptions émergent d'équipes auto-organisées.
+12. **Amélioration continue** : À intervalles réguliers, l'équipe réfléchit aux moyens de devenir plus efficace, puis règle et modifie son comportement en conséquence.
 
-> * **Les individus et leurs interactions** plus que les processus et les outils.
-> * **Du logiciel qui fonctionne** plus qu’une documentation exhaustive.
-> * **La collaboration avec les clients** plus que la négociation contractuelle.
-> * **L’adaptation au changement** plus que le suivi d’un plan.
+### Les 4 Valeurs du Manifeste Agile
 
-### Principes clés
+* **Les individus et leurs interactions** plus que les processus et les outils.
+* **Du logiciel qui fonctionne** plus qu’une documentation exhaustive.
+* **La collaboration avec les clients** plus que la négociation contractuelle.
+* **L’adaptation au changement** plus que le suivi d’un plan.
 
-* Satisfaction client par des livraisons rapides et régulières.
-* Accueillir positivement les changements, même tardifs.
-* Livraisons fréquentes (semaines plutôt que mois).
-* Coopération quotidienne entre utilisateurs et développeurs.
-* Dialogue en face à face privilégié.
-* Un logiciel opérationnel est la principale mesure d'avancement.
-* Simplicité : l'art de minimiser la quantité de travail inutile.
-* Amélioration continue (rétrospectives).
-
-
-
-Vocabulaire Agile
+### Vocabulaire Agile
 
 * **Cycle / Itération / Sprint** : Période courte (1 à 4 semaines) pour réaliser un sous-ensemble de fonctionnalités.
 * **User Story** : Description d'une fonctionnalité répondant à un besoin utilisateur.
 * **Tâche** : Développement élémentaire.
 * **Product Backlog** : Ensemble des fonctionnalités restantes à faire.
 * **Feedback** : Retour des utilisateurs sur le livrable.
+
+## Un cycle agile
+![cycle-agile](../images/presentation/cycle-agile.png)
+
+## Chacun sa vision
+![roles-agile](../images/presentation/estimations.png)
+
+## Résultat
+![calage-agile](../images/presentation/calage-agile.png)
 
 ---
 
@@ -115,7 +157,6 @@ Scrum est un cadre de travail itératif très répandu.
 * **Le cycle Scrum** : Sélection des fonctionnalités → Réalisation → Tests → Livraison → Retours → Validation (ou pas).
 
 * **Les Rôles Scrum**:
-
 
 * *Product Owner (PO)* : Représentant des utilisateurs/MOA.
 * *Scrum Master* : Facilitateur, assure l'application de la méthode, protège l'équipe.
@@ -134,7 +175,7 @@ XP pousse les bonnes pratiques de développement à l'extrême:
 * **Simplicité** → KISS (Keep It Simple, Stupid).
 * **Qualité** → Refactoring permanent.
 
-Comparatif : Agile vs Classique
+### Comparatif : Agile vs Classique
 
 | Agile | Classique |
 | --- | --- |
@@ -160,9 +201,9 @@ Pour piloter et réaliser le projet, divers outils sont utilisés.
 
 ### Outils Techniques
 
-* **Bug Tracker** (Gestion de tickets) : Jira, Mantis, Redmine.
-* **Gestionnaire de version** : Git, SVN, Mercurial.
-* **Intégration Continue (CI)** : Jenkins (automatisation des livraisons).
+* **Bug Tracker** (Gestion de tickets) : Jira, Mantis, Redmine, Gitlab...
+* **Gestionnaire de version** : Git, SVN, Mercurial...
+* **Intégration Continue (CI)**  (automatisation des livraisons) : Jenkins, Gitlab CI, GitHub Actions...
 
 ### Qualité du Code
 
@@ -179,9 +220,13 @@ Pour piloter et réaliser le projet, divers outils sont utilisés.
 ## 7. Mise en Pratique
 
 Sujet : HTML + CSS + Javascript
-Créer le site web d'un magasin fictif, de manière itérative.
+Créer le site web d'un magasin fictif, de manière itérative. Par exemple :
+- Page d'accueil du site
+- Page contact (avec intégration d'une carte)
+- Page e-boutique
+- etc, selon votre inspiration 😉
 
-### Structure des groupe
+### Structure des groupes
 
 8, 12 ou 13 étudiants :
 

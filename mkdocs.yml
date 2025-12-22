@@ -37,6 +37,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+    - admonition
+    - pymdownx.details
 
 theme:
   name: material
@@ -49,3 +51,4 @@ theme:
     - content.code.copy
 plugins:
   - search
+  - slides
