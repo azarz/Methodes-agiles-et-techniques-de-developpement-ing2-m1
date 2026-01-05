@@ -3,7 +3,7 @@
 ## Jour 1
 - 9h -> 10h15 : cours en commun, avec le support suivant : [presentation_j1](presentation_j1.md)
 - 10h15 -> 10h30 : constitution des groupes (assignation des rôles), répartition des élèves dans les salles
-- 11h05 -> 12h30 : installation dans les salles, création des comptes [Gitlab](http://gitlab-ing2.ensg.eu/)
+- 11h05 -> 12h15 : installation dans les salles, création des comptes [Gitlab](http://gitlab-ing2.ensg.eu/)
 
 --- Déjeuner ---
 
@@ -13,11 +13,11 @@
 - 16h45 -> 17h : Réunion inter-sprint 2/3
 
 ## Jour 2
-- 9h -> 9h10 : Réunion daily = résumé de la situation actuelle et des difficultés en cours
-- 9h10 -> 10h15 : Sprint 3
-- 10h15 -> 10h30 : Réunion inter-sprint 3/4
-- 11h -> 12h15 : Sprint 4
-- 12h15 -> 12h30 : Réunion inter-sprint 4/5
+- 8h45 -> 9h : Réunion daily = résumé de la situation actuelle et des difficultés en cours
+- 9h -> 10h : Sprint 3
+- 10h -> 10h15 : Réunion inter-sprint 3/4
+- 10h45 -> 12h : Sprint 4
+- 12h -> 12h15 : Réunion inter-sprint 4/5
 
 --- Déjeuner ---
 
