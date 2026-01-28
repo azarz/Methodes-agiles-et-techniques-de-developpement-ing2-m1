@@ -47,6 +47,7 @@ theme:
     primary: blue grey
     accent: deep purple
   logo: logo.svg
+  favicon: logo.svg
   features:
     - content.code.copy
 plugins:
