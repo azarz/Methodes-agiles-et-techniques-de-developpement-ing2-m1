@@ -1,0 +1,1614 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../gitlab/ci/">
+      
+      
+      
+      <link rel="icon" href="../logo.svg">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Support de la première demi-journée - Méthodes agiles et techniques de développement</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/slides/css/slides.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gestion-de-projet-informatique" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="Méthodes agiles et techniques de développement" class="md-header__button md-logo" aria-label="Méthodes agiles et techniques de développement" data-md-component="logo">
+      
+  <img src="../logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Méthodes agiles et techniques de développement
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Support de la première demi-journée
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Méthodes agiles et techniques de développement" class="md-nav__button md-logo" aria-label="Méthodes agiles et techniques de développement" data-md-component="logo">
+      
+  <img src="../logo.svg" alt="logo">
+
+    </a>
+    Méthodes agiles et techniques de développement
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Accueil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Déroulement des séances
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Roadmaps
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Roadmaps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../utilisateurs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Utilisateurices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../po/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Product Owner (PO)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chef_moe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chef·fe d'équipe MOE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developpeurs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Développeur·euses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DevOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Aide Gitlab
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Aide Gitlab
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gitlab/project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Créer un projet
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gitlab/issues/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tickets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gitlab/mr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Merge requests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gitlab/tag/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Création de version
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gitlab/ci/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Intégration continue
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Git
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Git
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://rogerdudler.github.io/git-guide/" target="_blank" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guide pour débuter (en anglais)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FormationGit.pdf" target="_blank" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Formation Git
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Support de la première demi-journée
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Support de la première demi-journée
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#gestion-de-projet-informatique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gestion de Projet Informatique
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gestion de Projet Informatique">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-a-lorigine-dun-projet" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. À l'origine d'un projet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-les-acteurs-du-projet" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Les acteurs du projet
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Les acteurs du projet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lequipe-de-realisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      L'équipe de réalisation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-roles-cles-moa-vs-moe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les rôles clés (MOA vs MOE)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-methodes-traditionnelles" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Méthodes Traditionnelles
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Méthodes Traditionnelles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#la-methode-en-cascade" class="md-nav__link">
+    <span class="md-ellipsis">
+      La méthode en Cascade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-cycle-en-v" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le Cycle en V
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-la-philosophie-agile" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. La Philosophie Agile
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. La Philosophie Agile">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-12-principes-agile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les 12 principes Agile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-4-valeurs-du-manifeste-agile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les 4 Valeurs du Manifeste Agile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vocabulaire-agile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vocabulaire Agile
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#un-cycle-agile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Un cycle agile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chacun-sa-vision" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chacun sa vision
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Résultat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-methodes-agiles-scrum-xp" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Méthodes Agiles : Scrum &amp; XP
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Méthodes Agiles : Scrum & XP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scrum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scrum
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extreme-programming-xp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extreme Programming (XP)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparatif-agile-vs-classique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparatif : Agile vs Classique
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-outils-et-pratiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Outils et Pratiques
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Outils et Pratiques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#planification-et-suivi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Planification et Suivi
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outils-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outils Techniques
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qualite-du-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Qualité du Code
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-mise-en-pratique" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Mise en Pratique
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Mise en Pratique">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure-des-groupes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure des groupes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-git-tickets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflow Git &amp; Tickets
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#gestion-de-projet-informatique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gestion de Projet Informatique
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gestion de Projet Informatique">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-a-lorigine-dun-projet" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. À l'origine d'un projet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-les-acteurs-du-projet" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Les acteurs du projet
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Les acteurs du projet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lequipe-de-realisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      L'équipe de réalisation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-roles-cles-moa-vs-moe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les rôles clés (MOA vs MOE)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-methodes-traditionnelles" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Méthodes Traditionnelles
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Méthodes Traditionnelles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#la-methode-en-cascade" class="md-nav__link">
+    <span class="md-ellipsis">
+      La méthode en Cascade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-cycle-en-v" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le Cycle en V
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-la-philosophie-agile" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. La Philosophie Agile
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. La Philosophie Agile">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-12-principes-agile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les 12 principes Agile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-4-valeurs-du-manifeste-agile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les 4 Valeurs du Manifeste Agile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vocabulaire-agile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vocabulaire Agile
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#un-cycle-agile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Un cycle agile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chacun-sa-vision" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chacun sa vision
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Résultat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-methodes-agiles-scrum-xp" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Méthodes Agiles : Scrum &amp; XP
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Méthodes Agiles : Scrum & XP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scrum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scrum
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extreme-programming-xp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extreme Programming (XP)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparatif-agile-vs-classique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparatif : Agile vs Classique
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-outils-et-pratiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Outils et Pratiques
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Outils et Pratiques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#planification-et-suivi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Planification et Suivi
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outils-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outils Techniques
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qualite-du-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Qualité du Code
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-mise-en-pratique" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Mise en Pratique
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Mise en Pratique">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure-des-groupes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure des groupes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-git-tickets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflow Git &amp; Tickets
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Support de la première demi-journée</h1>
+
+<h2 id="gestion-de-projet-informatique">Gestion de Projet Informatique</h2>
+<div class="slides-deck" style="
+            --slide-padding: 64px;
+            --slide-max-width: 1200px;
+            --slide-aspect-ratio: 16/9;
+            --slide-font-size: 24px;
+        "><div class="slides-viewport"><iframe class="slide" src="../slides/j1-slides/1.html" style="display: block"></iframe><iframe class="slide" src="../slides/j1-slides/2.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/3.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/4.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/5.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/5a.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/5bis.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/pause.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/6.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/7.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/8.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/8a.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/8bis.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/8c.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/9.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/10.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/10bis.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/pause.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/11.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/11bis.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/12.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/13.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/14.html" style="display: none"></iframe><iframe class="slide" src="../slides/j1-slides/15.html" style="display: none"></iframe></div><div class="slides-controls"><div class="nav-controls"><button class="prev-slide" title="Previous (← Left arrow)">←</button><span class="slide-progress">1 / 24</span><button class="next-slide" title="Next (→ Right arrow)">→</button></div><button class="fullscreen-toggle" title="Toggle fullscreen (F)">⛶</button></div></div>
+
+<h3 id="1-a-lorigine-dun-projet">1. À l'origine d'un projet</h3>
+<p>La genèse d'un projet informatique repose sur la convergence de plusieurs éléments fondamentaux:</p>
+<ul>
+<li><strong>Des besoins</strong> : L'identification d'un manque ou d'une nécessité.</li>
+<li><strong>Une décision</strong> : L'acte de lancer le projet.</li>
+<li><strong>De l'argent</strong> : Le financement nécessaire à la réalisation.</li>
+<li><strong>Des utilisateurs</strong> : Ceux qui exploiteront le résultat final.</li>
+<li><strong>Des commanditaires</strong> : Ceux qui portent la demande.</li>
+</ul>
+<h3 id="2-les-acteurs-du-projet">2. Les acteurs du projet</h3>
+<h4 id="lequipe-de-realisation">L'équipe de réalisation</h4>
+<p>Pour réaliser un projet, plusieurs compétences techniques sont mobilisées :</p>
+<ul>
+<li><strong>Des développeurs</strong>.</li>
+<li><strong>Des concepteurs</strong>.</li>
+<li><strong>Des designers</strong>.</li>
+<li><strong>Des architectes</strong> et <strong>administrateurs réseau</strong>.</li>
+<li><strong>Des chefs d'équipe</strong>.</li>
+</ul>
+<h4 id="les-roles-cles-moa-vs-moe">Les rôles clés (MOA vs MOE)</h4>
+<p>Il est crucial de distinguer les responsabilités de chacun dans la structure du projet:</p>
+<table>
+<thead>
+<tr>
+<th>Rôle</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Maîtrise d'Ouvrage (MOA)</strong></td>
+<td>Elle définit le projet et le résultat à obtenir. Elle contrôle la réalisation et valide le résultat final.</td>
+</tr>
+<tr>
+<td><strong>Maîtrise d'Œuvre (MOE)</strong></td>
+<td>Elle réalise le projet en respectant les exigences de la MOA (Qualité – Coût - Délai). Elle inclut les développeurs, analystes, architectes, etc.</td>
+</tr>
+<tr>
+<td><strong>Utilisateurs</strong></td>
+<td>Ceux pour qui est fait l'ouvrage (le logiciel).</td>
+</tr>
+<tr>
+<td><strong>Commanditaire</strong></td>
+<td>Celui qui paie l'ouvrage et choisit la maîtrise d'œuvre.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="3-methodes-traditionnelles">3. Méthodes Traditionnelles</h3>
+<h4 id="la-methode-en-cascade">La méthode en Cascade</h4>
+<p>C'est une approche linéaire où chaque étape dépend de la précédente:</p>
+<ol>
+<li>Analyse des besoins.</li>
+<li>Spécification.</li>
+<li>Conception architecture.</li>
+<li>Conception détaillée.</li>
+<li>Implémentation.</li>
+<li>Validation.</li>
+</ol>
+<h4 id="le-cycle-en-v">Le Cycle en V</h4>
+<p>Une évolution de la cascade qui met en relation chaque phase de conception avec sa phase de test correspondante.</p>
+<pre class="mermaid"><code>graph TD
+    A[Spécification] --&gt; B[Conception Architecture]
+    B --&gt; C[Conception Détaillée]
+    C --&gt; D[Implémentation]
+    D --&gt; E[Tests Unitaires]
+    E --&gt; F[Tests d'Intégration]
+    F --&gt; G[Tests de Validation]
+
+    A -.-&gt; G
+    B -.-&gt; F
+    C -.-&gt; E
+</code></pre>
+<div class="admonition warning">
+<p class="admonition-title">Le problème des méthodes traditionnelles</p>
+<p>Souvent, il y a un décalage entre ce qui est souhaité, spécifié, et ce qui est réellement nécessaire. Les besoins peuvent également varier au cours du temps. Enfin, les différents interlocuteurs et le temps de développement risquent aussi de créer une dérive.</p>
+</div>
+<p><img alt="derive" src="../images/presentation/derive.png" /></p>
+<hr />
+<h3 id="4-la-philosophie-agile">4. La Philosophie Agile</h3>
+<p>L'agilité est une réponse aux problèmes des cycles longs (effet tunnel). Elle repose sur <strong>12 principes</strong> et <strong>4 valeurs</strong> fondamentales.</p>
+<h4 id="les-12-principes-agile">Les 12 principes Agile</h4>
+<ol>
+<li><strong>Satisfaction du client</strong> : Notre plus haute priorité est de satisfaire le client en livrant rapidement et régulièrement des fonctionnalités à grande valeur ajoutée.</li>
+<li><strong>Accueillir les changements</strong> : Les changements de besoins sont accueillis favorablement, même tard dans le développement. Les processus Agiles exploitent le changement pour donner un avantage compétitif au client.</li>
+<li><strong>Livraison fréquente</strong> : Livrer fréquemment un logiciel opérationnel, sur des cycles allant de quelques semaines à quelques mois, avec une préférence pour les périodes les plus courtes.</li>
+<li><strong>Coopération quotidienne</strong> : Les utilisateurs ou clients et les développeurs doivent travailler ensemble quotidiennement tout au long du projet.</li>
+<li><strong>Individus motivés</strong> : Réalisez les projets avec des personnes motivées. Fournissez-leur l’environnement et le soutien dont elles ont besoin et faites-leur confiance pour atteindre les objectifs fixés.</li>
+<li><strong>Dialogue face à face</strong> : La méthode la plus efficace pour transmettre des informations à l'équipe de développement et à l'intérieur de celle-ci est le dialogue en face à face.</li>
+<li><strong>Logiciel opérationnel</strong> : Un logiciel opérationnel est la principale mesure d’avancement d’un projet.</li>
+<li><strong>Rythme soutenable</strong> : Les processus Agiles encouragent un rythme de développement soutenable. Les commanditaires, les développeurs et les utilisateurs devraient être capables de maintenir un rythme constant indéfiniment.</li>
+<li><strong>Excellence technique</strong> : Une attention continue à l'excellence technique et à une bonne conception renforce l'agilité.</li>
+<li><strong>Simplicité</strong> : La simplicité est essentielle. C'est l'art de minimiser la quantité de travail inutile.</li>
+<li><strong>Auto-organisation</strong> : Les meilleures architectures, spécifications et conceptions émergent d'équipes auto-organisées.</li>
+<li><strong>Amélioration continue</strong> : À intervalles réguliers, l'équipe réfléchit aux moyens de devenir plus efficace, puis règle et modifie son comportement en conséquence.</li>
+</ol>
+<h4 id="les-4-valeurs-du-manifeste-agile">Les 4 Valeurs du Manifeste Agile</h4>
+<ul>
+<li><strong>Les individus et leurs interactions</strong> plus que les processus et les outils.</li>
+<li><strong>Du logiciel qui fonctionne</strong> plus qu’une documentation exhaustive.</li>
+<li><strong>La collaboration avec les clients</strong> plus que la négociation contractuelle.</li>
+<li><strong>L’adaptation au changement</strong> plus que le suivi d’un plan.</li>
+</ul>
+<h4 id="vocabulaire-agile">Vocabulaire Agile</h4>
+<ul>
+<li><strong>Cycle / Itération / Sprint</strong> : Période courte (1 à 4 semaines) pour réaliser un sous-ensemble de fonctionnalités.</li>
+<li><strong>User Story</strong> : Description d'une fonctionnalité répondant à un besoin utilisateur.</li>
+<li><strong>Tâche</strong> : Développement élémentaire.</li>
+<li><strong>Product Backlog</strong> : Ensemble des fonctionnalités restantes à faire.</li>
+<li><strong>Feedback</strong> : Retour des utilisateurs sur le livrable.</li>
+</ul>
+<h3 id="un-cycle-agile">Un cycle agile</h3>
+<p><img alt="cycle-agile" src="../images/presentation/cycle-agile.png" /></p>
+<h3 id="chacun-sa-vision">Chacun sa vision</h3>
+<p><img alt="roles-agile" src="../images/presentation/estimations.png" /></p>
+<h3 id="resultat">Résultat</h3>
+<p><img alt="calage-agile" src="../images/presentation/calage-agile.png" /></p>
+<hr />
+<h3 id="5-methodes-agiles-scrum-xp">5. Méthodes Agiles : Scrum &amp; XP</h3>
+<h4 id="scrum">Scrum</h4>
+<p>Scrum est un cadre de travail itératif très répandu.
+* <strong>Le cycle Scrum</strong> : Sélection des fonctionnalités → Réalisation → Tests → Livraison → Retours → Validation (ou pas).</p>
+<ul>
+<li>
+<p><strong>Les Rôles Scrum</strong>:</p>
+</li>
+<li>
+<p><em>Product Owner (PO)</em> : Représentant des utilisateurs/MOA.</p>
+</li>
+<li><em>Scrum Master</em> : Facilitateur, assure l'application de la méthode, protège l'équipe.</li>
+<li>
+<p><em>Équipe Scrum</em> : Les développeurs (max 10 personnes).</p>
+</li>
+<li>
+<p><strong>Rituel</strong> : La <em>Mêlée quotidienne</em> (Stand-up meeting) de 5-10 minutes.</p>
+</li>
+</ul>
+<h4 id="extreme-programming-xp">Extreme Programming (XP)</h4>
+<p>XP pousse les bonnes pratiques de développement à l'extrême:</p>
+<ul>
+<li><strong>Revue de code</strong> → Pair Programming (développement à deux).</li>
+<li><strong>Tests</strong> → TDD (Test Driven Development - on commence par écrire le test).</li>
+<li><strong>Simplicité</strong> → KISS (Keep It Simple, Stupid).</li>
+<li><strong>Qualité</strong> → Refactoring permanent.</li>
+</ul>
+<h4 id="comparatif-agile-vs-classique">Comparatif : Agile vs Classique</h4>
+<table>
+<thead>
+<tr>
+<th>Agile</th>
+<th>Classique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Engagement sur les moyens</td>
+<td>Engagement sur le résultat (au forfait)</td>
+</tr>
+<tr>
+<td>Au forfait par itération</td>
+<td>Avenants coûteux en cas de changement</td>
+</tr>
+<tr>
+<td>Échanges de fonctionnalités possibles</td>
+<td>Tranches conditionnelles</td>
+</tr>
+<tr>
+<td>Application plus modulaire et évolutive</td>
+<td>Solution finale statique (monolithique)</td>
+</tr>
+<tr>
+<td><strong>Risque</strong> : Pas de documentation précise</td>
+<td><strong>Risque</strong> : Documentation obligatoire mais obsolète</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Risque</strong> : Un développement qui n'avance pas (effet tunnel)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="6-outils-et-pratiques">6. Outils et Pratiques</h3>
+<p>Pour piloter et réaliser le projet, divers outils sont utilisés.</p>
+<h4 id="planification-et-suivi">Planification et Suivi</h4>
+<ul>
+<li><strong>GANTT</strong> : Pour planifier les tâches dans le temps.</li>
+<li><strong>PERT</strong> : Pour ordonner les tâches (dépendances) et trouver le chemin critique.</li>
+<li><strong>Poker Planning</strong> : Pour estimer collégialement la complexité des tâches (cartes avec suite de Fibonacci : 1, 2, 3, 5, 8, 13...).</li>
+<li><strong>Kanban</strong> : Tableau visuel (colonnes : À faire, En cours, Fait) pour voir l'état du flux.</li>
+</ul>
+<h4 id="outils-techniques">Outils Techniques</h4>
+<ul>
+<li><strong>Bug Tracker</strong> (Gestion de tickets) : Jira, Mantis, Redmine, Gitlab...</li>
+<li><strong>Gestionnaire de version</strong> : Git, SVN, Mercurial...</li>
+<li><strong>Intégration Continue (CI)</strong>  (automatisation des livraisons) : Jenkins, Gitlab CI, GitHub Actions...</li>
+</ul>
+<h4 id="qualite-du-code">Qualité du Code</h4>
+<ul>
+<li><strong>Tests</strong> : Unitaires et fonctionnels pour éviter les régressions.</li>
+<li><strong>Code Propre</strong> : Pas de code dupliqué, pas de code mort, fonctions courtes.</li>
+<li><strong>Mémoire</strong> : Attention aux fuites mémoires (outils comme Valgrind), gestion du Garbage Collector.<em> </em><em>Documentation</em>*:</li>
+</ul>
+<h3 id="documentation">Documentation</h3>
+<ul>
+<li><em>Tech</em> : Commentaires, Doxygen.</li>
+<li><em>User</em> : Tutoriels, manuels.</li>
+</ul>
+<hr />
+<h3 id="7-mise-en-pratique">7. Mise en Pratique</h3>
+<p>Sujet : HTML + CSS + Javascript
+Créer le site web d'un magasin fictif, de manière itérative. Par exemple :
+- Page d'accueil du site
+- Page contact (avec intégration d'une carte)
+- Page e-boutique
+- etc, selon votre inspiration 😉</p>
+<h4 id="structure-des-groupes">Structure des groupes</h4>
+<p>8, 12 ou 13 étudiants :</p>
+<ul>
+<li><strong>M</strong>aîtrise d'<strong>O</strong>uvr<strong>A</strong>ge (MOA)</li>
+<li>1 Product Owner (PO)</li>
+<li>2 utilisateurs -&gt; sont également développeurs "externes" dans un autre groupe</li>
+<li><strong>M</strong>aîtrise d'<strong>OE</strong>uvre (MOE)</li>
+<li>1 chef d'équipe</li>
+<li>3 équipes de 2 développeurs (1 "senior" 1 "junior" : pair programming)<ul>
+<li>1 développeur pour les groupes de 13</li>
+<li>1 équipe "externe" de 1/2 développeurs = utilisateurs d'un autre groupe</li>
+</ul>
+</li>
+<li>2 devops</li>
+</ul>
+<p>Pour 8 étudiants : 1 PO, 1 utilisateur, 1 chef d'équipe, 1 devops, 2x2 développeurs + externes.</p>
+<h4 id="workflow-git-tickets">Workflow Git &amp; Tickets</h4>
+<pre class="mermaid"><code>graph LR
+    %% Définition des styles
+    classDef role fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:black;
+    classDef tool fill:#fff3e0,stroke:#f57f17,stroke-width:2px,color:black;
+
+    %% Les Acteurs (Rôles)
+    User(Utilisateurs):::role
+    PO(Product Owner):::role
+    Lead(Chef d'équipe):::role
+    Dev(Développeurs):::role
+    DevOps(DevOps):::role
+
+    %% Les Outils (Git/GitLab)
+    subgraph GitLab_Tools [Outils manipulés]
+        direction TB
+        Issues(Issues):::tool
+        Tags(Tags):::tool
+        MR(Merge Requests):::tool
+        CI(CI/CD):::tool
+    end
+
+    %% Les Relations (Flèches)
+    User --&gt; Issues
+    PO --&gt; Issues
+
+    Lead --&gt; Issues
+    Lead --&gt; Tags
+    Lead --&gt; MR
+
+    Dev --&gt; Issues
+    Dev --&gt; MR
+
+    DevOps --&gt; MR
+    DevOps --&gt; CI</code></pre>
+<ol>
+<li><strong>Création du ticket</strong> par la MOA → Assignation MOE.</li>
+<li><strong>Développement</strong> de la fonctionnalité.</li>
+<li><strong>Déploiement</strong> sur la préproduction (pour les testeurs).</li>
+<li><strong>Validation</strong> et reprises éventuelles.</li>
+<li><strong>Déploiement</strong> en production.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+        <script src="../assets/slides/js/slides.js"></script>
+      
+    
+  </body>
+</html>
